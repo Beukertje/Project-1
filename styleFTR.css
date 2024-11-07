@@ -28,7 +28,7 @@ footer {
     border-top-right-radius: 2em;
     position: fixed;
     bottom: 0;
-    width: 100vw;
+    width: 97.6vw;
 }
 
 /*losse onderdelen*/
@@ -59,8 +59,15 @@ section ul {
 main img{
     display: block;
     margin: 0 auto;
-    width: 300px;
-    margin-top: 5em;
+}
+
+article{
+    margin: 1em;
+    padding: 1em;
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+    font-size: 1.5em;
 }
 
 main p{
@@ -90,9 +97,29 @@ footer img {
     width: 100vw;
 }
 
+.logohomescreen{
+    width: 300px;
+    margin-top: 5em;
+}
+
+.pagesimage{
+    width: 325px;
+}
+
 .active{
     border: 0.1em solid white;
     border-radius: 1em;
+}
+
+.meerinfo{
+    margin-top: 2.5em;
+    width: 12.5em;
+}
+
+.tekststuk{
+    background-color: #7f1500;
+    border-top: 5px solid white;
+    padding-bottom: 6em;
 }
 
 .twcen {
