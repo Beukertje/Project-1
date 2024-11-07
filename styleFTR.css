@@ -4,6 +4,11 @@
     src: url(fonts/tw-cen-mt-condensed-extrabold.ttf);
 }
 
+@font-face{
+    font-family: ebgaramond;
+    src: url(fonts/EBGaramond-SemiBold.ttf);
+}
+
 /*algemeen*/
 body {
     color: white;
@@ -46,7 +51,7 @@ h1{
     font-size: 1.5em;
 }
 
-section ul {
+section > ul {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -68,6 +73,8 @@ article{
     color: black;
     border-radius: 1em;
     font-size: 1.5em;
+    font-family: ebgaramond;
+
 }
 
 main p{
@@ -78,7 +85,39 @@ main p{
     font-weight: 50;
 }
 
-section p{
+main section p{
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    font-size: 0.6em;
+}
+
+article > ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+article p{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+main li{
+    margin-bottom: 1em;
+}
+
+ul{
+    padding-inline-start: 10px;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+h2{
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+footer section p{
     display: table;
     margin: auto;
     margin-top: 0.1em;
@@ -92,11 +131,33 @@ footer img {
 
 /*classes enzo*/
 
+/*backgroundimages*/
 .homescreen{
     background-image: url(images/homepagestore.jpg);
     width: 100vw;
 }
 
+.home2{
+    background-image: url(images/homepage2.jpg);
+    width: 100vw;
+}
+
+.mijnervaring{
+    background-image: url(images/mijnervaring.jpg);
+    width: 100vw;
+}
+
+.overconcerto{
+    background-image: url(images/overconcerto.jpg);
+    width: 100vw;
+}
+
+.overvinyl{
+    background-image: url(images/overvinyl.jpg);
+    width: 100vw;
+}
+
+/*overige classes*/
 .logohomescreen{
     width: 300px;
     margin-top: 5em;
@@ -122,7 +183,26 @@ footer img {
     padding-bottom: 6em;
 }
 
+.fotoinarticle{
+    width: 10em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+}
+
 .twcen {
     font-family: twcen;
     font-style: italic;
+}
+
+.twcenh2 {
+    text-align: center;
+    font-family: twcen;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.twcenh3 {
+    font-family: twcen;
+    font-size: 1em;
+    margin-bottom: 0.5em;
 }
