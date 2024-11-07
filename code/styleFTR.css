@@ -1,0 +1,173 @@
+/*fonts*/
+@font-face{
+    font-family: twcen;
+    src: url(fonts/tw-cen-mt-condensed-extrabold.ttf);
+}
+
+@font-face{
+    font-family: ebgaramond;
+    src: url(fonts/EBGaramond-SemiBold.ttf);
+}
+
+/*algemeen*/
+body {
+    color: white;
+    margin: 0em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7f1500;
+    border-bottom: 5px solid white;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    font-family: twcen;
+}
+
+footer {
+    background-color: #7f1500;
+    border: 5px solid white;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    position: fixed;
+    bottom: 0;
+    width: 97.6vw;
+}
+
+/*losse onderdelen*/
+header img{
+    width: 3em;
+    padding-top: 0.3em;
+}
+
+a{
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+section > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0em 1.5em 0.5em 1.5em;
+    margin-bottom: 0em;
+    margin-top: 0.5em;
+}
+
+main img{
+    display: block;
+    margin: 0 auto;
+}
+
+article{
+    margin: 1em;
+    padding: 1em;
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+    font-size: 1.5em;
+    font-family: ebgaramond;
+
+}
+
+main p{
+    margin-top: 0.1em;
+    display: table;
+    margin: auto;
+    font-size: 1.5em;
+    font-weight: 50;
+}
+
+main section p{
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    font-size: 0.6em;
+}
+
+article > ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+main li{
+    margin-bottom: 2em;
+}
+
+footer section p{
+    display: table;
+    margin: auto;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    font-size: 0.6em;
+}
+
+footer img {
+    width: 4em;
+}
+
+/*classes enzo*/
+
+/*backgroundimages*/
+.homescreen{
+    background-image: url(images/homepagestore.jpg);
+    width: 100vw;
+}
+
+.home2{
+    background-image: url(images/homepage2.jpg);
+    width: 100vw;
+}
+
+.mijnervaring{
+    background-image: url(images/mijnervaring.jpg);
+    width: 100vw;
+}
+
+.overconcerto{
+    background-image: url(images/overconcerto.jpg);
+    width: 100vw;
+}
+
+.overvinyl{
+    background-image: url(images/overvinyl.jpg);
+    width: 100vw;
+}
+
+/*overige classes*/
+.logohomescreen{
+    width: 300px;
+    margin-top: 5em;
+}
+
+.pagesimage{
+    width: 325px;
+}
+
+.active{
+    border: 0.1em solid white;
+    border-radius: 1em;
+}
+
+.meerinfo{
+    margin-top: 2.5em;
+    width: 12.5em;
+}
+
+.tekststuk{
+    background-color: #7f1500;
+    border-top: 5px solid white;
+    padding-bottom: 6em;
+}
+
+.twcen {
+    font-family: twcen;
+    font-style: italic;
+}
